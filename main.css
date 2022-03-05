@@ -124,7 +124,7 @@ nav li:hover{
    
     filter: drop-shadow(0.1rem 0.1rem 0.1rem black);
     /*color: rgb(156, 144, 73);*/
-    color: rgb(146, 148, 150);
+    color: goldenrod;
     }
 
 
@@ -187,13 +187,14 @@ header {
 
 #resumen a:hover{
   text-decoration: underline;
-  color: #1c3157;
+  color: goldenrod;
   }
+  /*
  .dark #resumen a:hover{
     text-decoration: underline;
     color: #7c8391;
     }
-
+*/
 #contenedor-links{
   text-align: left;
   font-size: 2.8vw;
@@ -213,11 +214,12 @@ header {
    text-decoration: none;
   color: #464646;
 }
+
 .dark #links a{
  color: rgb(230,230,230);
 }
-.dark #links a:hover{
-  color: #7c8391;
+#links a:hover{
+  color: goldenrod;
  }
 
 
@@ -439,8 +441,8 @@ width: 100px;
  }
 
 
- .dark #lista-formacion li a:hover{
-  color: #7c8391;
+ #lista-formacion li a:hover{
+  color: goldenrod;
  }
 
 
@@ -658,9 +660,9 @@ form label, form legend{
   }
 
 
-
-
-
+#creditos a:hover{
+    color: goldenrod;
+   }
 
 
 /******************footer**********/
@@ -879,9 +881,74 @@ visibility: hidden;
 visibility: visible;
 }
 
+
 }
 
 
+
+
+
+
+
+
+/*
+.contenedor-iconos{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: auto;
+}
+*/
+
+.contenedor-iconos{
+  position: relative;
+width: 100%;
+
+}
+
+.gh{
+  position: absolute;
+ 
+  left: -20%;
+  bottom: 15%;
+  width: 5%;
+  border: 0.3vw solid goldenrod;
+  border-radius: 2.5vw;
+  transition: 0.5s;
+}
+.gh img{
+  width: 100%;
+}
+
+.gh:hover{
+  filter: drop-shadow(0 0 0.2vw goldenrod)
+  drop-shadow( 0 0 0.4vw goldenrod)
+  drop-shadow(0 0 0.6vw rgb(121, 87, 2))
+  drop-shadow(0 0 0.8vw goldenrod)
+  drop-shadow(0 0 1vw goldenrod)
+  drop-shadow(0 0 1.2vw rgb(88, 64, 0))
+}
+
+
+.link{
+  position: absolute;
+ right: -20%;
+ bottom: 15%;
+  width: 5%;
+  border: 0.3vw solid goldenrod;
+ border-radius: 2.5vw;
+}
+.link img{
+  width: 100%;
+}
+.link:hover{  
+  filter: drop-shadow(0 0 0.2vw goldenrod)
+  drop-shadow( 0 0 0.4vw goldenrod)
+  drop-shadow(0 0 0.6vw rgb(121, 87, 2))
+  drop-shadow(0 0 0.8vw goldenrod)
+  drop-shadow(0 0 1vw goldenrod)
+  drop-shadow(0 0 1.2vw rgb(88, 64, 0))
+}
 
 
 

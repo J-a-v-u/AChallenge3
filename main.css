@@ -137,24 +137,29 @@ nav a{
 
 
 header {
-  position: relative;
-  display: inline-block;
+ 
+  display:flex;
   margin: 0 10% 0 10%;
   height: 21vw;
   /*background-color: #BBBBBB;*/
   padding: 1vw;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row-reverse;
  
 }
 
 
 
 #headerL{
+  /*
   position: relative; 
-  right: 0;
-  width: 70%;
+  right: 0; 
   display: inline-block;
   text-align: right;  
   vertical-align: top;
+  */
+   width: 70%;
 }
 
 #headerL h1{
@@ -226,10 +231,12 @@ header {
 
 
 #headerR{
+  /*
  display: inline-block;
  position: relative;
  top: 0;
  right:0;  
+ */
  width:29%;
  text-align: right;
 }
@@ -243,7 +250,7 @@ header {
   
 
   header{
-    position: relative;
+    
     display: block;
    height: auto;
    }
@@ -301,7 +308,6 @@ background-color: #555555;
   padding: 1vw 0 1vw 0;
   font-weight: bold;
  /* color: #464646;*/
-  font-size: 2.5vw;
   text-align: left;
 }
 
@@ -309,22 +315,20 @@ background-color: #555555;
   width: 80%;
   font-weight: normal;
 /*  color: #464646;*/
-  font-size: 1.6vw;
+  font-size: 1.3rem;
   text-align: left;
 }
 
 
-
-
-
-
-h2{
- 
-  font-weight: bold;
-  /*color: #464646;*/
-  font-size: 2rem;
-  text-align: center;
+.about__firma {
+  width: 30%;
 }
+
+.about__firma img {
+  width: 100%;
+  opacity: 0.8;
+}
+
 
 @media (max-width: 780px) {
 
@@ -345,6 +349,16 @@ h2{
   }
 
 
+
+/************************************/
+
+h2{
+ 
+  font-weight: bold;
+  /*color: #464646;*/
+  font-size: 2rem;
+  text-align: center;
+}
 /**************SKILLS***********/
 #skills{
   position: relative;

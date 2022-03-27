@@ -216,17 +216,29 @@
                         <form>
                             <label for="nombreapellido">Nombre y Apellido</label>
                             <input type="text" id="nombreapellido" class="input-padron" required>
+                            <div class="error__contenedor">
+                                <p class="error__nombreapellido">Mensaje de error</p>
+                            </div>
 
                             <label for="correoelectronico">Correo Electrónico</label>
                             <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+                            <div class="error__contenedor">
+                                <p class="error__correo">Mensaje de error</p>
+                            </div>
 
                             <label for="asunto">Asunto</label>
                             <input type="tel" id="asunto" class="input-padron" required placeholder="Asunto">
+                            <div class="error__contenedor">
+                                <p class="error__asunto">Mensaje de error</p>
+                            </div>
 
                             <label for="mensaje">Mensaje</label>
                             <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+                            <div class="error__contenedor">
+                                <p class="error__mensaje">Mensaje de error</p>
+                            </div>
 
-                            <input type="submit" value="Enviar formulario" class="enviar">
+                            <input type="submit" value="Enviar formulario" class="enviar" onclick="multicomprobacion()">
 
                         </form>
         
@@ -246,15 +258,12 @@
             </li>
             <li>Libro: <a href="https://www.flaticon.com/free-icons/study" title="study icons"  target="_blank" rel="noopener noreferrer">Study icons created by Iconpro86 - Flaticon</a>
             </li>
-            <li>Contactos<a href="https://www.flaticon.com/free-icons/contacts" title="contacts icons"  target="_blank" rel="noopener noreferrer">Contacts icons created by Freepik - Flaticon</a>
+            <li>Contactos: <a href="https://www.flaticon.com/free-icons/contacts" title="contacts icons"  target="_blank" rel="noopener noreferrer">Contacts icons created by Freepik - Flaticon</a>
             </li>
     </ul>
 
 
 </div>
-
-
-
 
 
 
@@ -307,72 +316,31 @@
         </div>
         
       
-     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
         
-    <div class="contenedor-iconos">
-        <a href="https://github.com/J-a-v-u"  target="_blank" rel="noopener noreferrer">
-            <div class="gh">
-                <img src="images/gh.png" alt="git hub icon">
-            </div>
+        <div class="contenedor-iconos">
+            <a href="https://github.com/J-a-v-u"  target="_blank" rel="noopener noreferrer">
+                <div class="gh">
+                    <img src="images/gh.png" alt="git hub icon">
+                </div>
+            
+            </a> 
         
-         </a> 
-      
-         <a href="https://www.linkedin.com/in/javier-alejandro-vieira-nobre-65426922b/"  target="_blank" rel="noopener noreferrer">
-        
-            <div class="link">
-                <img src="images/link.png" alt="linkedin icon">
-            </div>
-        </a>
-</div>
+            <a href="https://www.linkedin.com/in/javier-alejandro-vieira-nobre-65426922b/"  target="_blank" rel="noopener noreferrer">
+            
+                <div class="link">
+                    <img src="images/link.png" alt="linkedin icon">
+                </div>
+            </a>
+        </div>
 
-    
-    
-    
-    
-    
     
     </div>
 
 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </main>
-        <script src="scripts.js"></script>
-    </body>
+</main>
+<script src="scripts.js"></script>
+</body>
 </html>
 
 

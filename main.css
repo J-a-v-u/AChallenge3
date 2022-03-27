@@ -650,9 +650,38 @@ form label, form legend{
 }
 
 
+.error__contenedor{
+  padding:  0rem .5rem .5rem .5rem ;
+}
+
+.error__nombreapellido{  
+  color: red;
+  font-size:1rem;
+  text-align: left;
+  visibility: hidden;
+}
+
+.error__correo{  
+  color: red;
+  font-size:1rem;
+  text-align: left;
+  visibility: hidden;
+}
+
+.error__asunto{  
+  color: red;
+  font-size:1rem;
+  text-align: left;
+  visibility: hidden;
+}
 
 
-
+.error__mensaje{  
+  color: red;
+  font-size:1rem;
+  text-align: left;
+  visibility: hidden;
+}
 
 
 
